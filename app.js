@@ -1,34 +1,18 @@
-/* ============================================
-   HERRAMIENTAS PARA CONTROL ELECTORAL
-   Lógica principal
-   ============================================ */
-
-// -------------------------------------------------------
-// CONFIGURACIÓN DE MACRODISTRITOS
-// -------------------------------------------------------
-// Modifica la propiedad "ruta" con la ubicación real
-// del mapa de cada macrodistrito.
-// Ejemplo: ruta: "./mapas/max-paredes/index.html"
-// -------------------------------------------------------
 const macrodistritos = [
   {
     id: "max-paredes",
     nombre: "Max Paredes",
     descripcion: "Distritos 18, 19",
-    // >>> RUTA DEL MAPA DE MAX PAREDES — REEMPLAZAR AQUÍ <<<
-    ruta: "#"
+    ruta: "MaxParedes/index.html"
   },
   {
     id: "sur",
     nombre: "Sur",
     descripcion: "Distrito 21",
-    // >>> RUTA DEL MAPA DE SUR — REEMPLAZAR AQUÍ <<<
-    ruta: "#"
+    ruta: "Sur/index.html"
   }
 ];
-// -------------------------------------------------------
 
-// Datos electorales
 const datosElectorales = [
   { macro: "SUR",          recintos: 34, mesas: 599, habilitados: 140489, pct: 21.96, destacado: true },
   { macro: "PERIFÉRICA",   recintos: 36, mesas: 515, habilitados: 119412, pct: 18.66, destacado: false },
@@ -46,7 +30,6 @@ function fmt(n) {
   return n.toLocaleString("es-BO");
 }
 
-// ---- Stats bar ----
 function renderStats() {
   const el = document.getElementById("statsInner");
   const items = [
@@ -63,7 +46,6 @@ function renderStats() {
   `).join("");
 }
 
-// ---- Macro cards ----
 function renderMacroCards() {
   const grid = document.getElementById("macroGrid");
   grid.innerHTML = macrodistritos.map(m => `
@@ -91,19 +73,12 @@ function handleMacroClick(btn) {
     btn.classList.add("active");
     const ruta = btn.dataset.ruta;
 
-    // -------------------------------------------------------
-    // NAVEGACIÓN AL MAPA
-    // Descomenta la línea que prefieras cuando tengas la ruta:
-    // -------------------------------------------------------
     if (ruta && ruta !== "#") {
-      // window.open(ruta, '_blank');       // Nueva pestaña
-      // window.location.href = ruta;       // Misma pestaña
-      console.log("Navegar a:", ruta);
+      window.location.href = ruta;    // Abre en nueva pestaña
     }
   }
 }
 
-// ---- Data table ----
 function renderTable() {
   const tbody = document.getElementById("tableBody");
   const maxHab = totales.habilitados;
@@ -153,17 +128,8 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// ---- Solicitar acceso chatbot ----
 function solicitarAcceso() {
-  // -------------------------------------------------------
-  // ACCIÓN DEL BOTÓN "SOLICITAR ACCESO"
-  // Reemplaza esta función con la lógica que necesites:
-  // - Abrir un formulario
-  // - Redirigir a un enlace
-  // - Mostrar un modal
-  // Ejemplo: window.open("https://forms.google.com/...", "_blank");
-  // -------------------------------------------------------
-  alert("¡Solicitud enviada! Nos pondremos en contacto contigo pronto.");
+  window.open("https://notebooklm.google.com/notebook/07cf6d01-a17d-4a85-99e2-8c6e169a0d58", "_blank");
 }
 
 // ---- Init ----
