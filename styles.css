@@ -509,14 +509,7 @@ tr.row-highlight td:first-child {
   color: var(--gray-800);
 }
 
-th, td {
-  padding: 13px 12px;
-}
 
-td:first-child, th:first-child {
-  max-width: 120px;
-  white-space: nowrap;
-}
 
 .dot {
   display: inline-block;
@@ -694,6 +687,15 @@ tr.row-total td {
   color: var(--gray-400);
   letter-spacing: 0.04em;
   background: var(--white);
+}
+
+th, td {
+  padding: 13px 12px;
+}
+
+td:first-child, th:first-child {
+  max-width: 120px;
+  white-space: nowrap;
 }
 
 /* ---- RESPONSIVE ---- */
