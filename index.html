@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herramientas para Control Electoral</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <div class="bar"></div>
+      <div>
+        <div class="nav-brand-text">Control Electoral</div>
+        <div class="nav-brand-sub">Municipio de La Paz</div>
+      </div>
+    </div>
+    <!-- LOGO: Reemplaza este div con <img src="tu-logo.png" alt="Logo" class="nav-logo"> -->
+    <div class="nav-logo">LOGO</div>
+  </nav>
+
+  <!-- ====== HERO SECTION ====== -->
+  <section class="hero">
+    <div class="hero-badge">
+      <span class="pulse"></span>
+      Elecciones 2025 – 2026
+    </div>
+    <h1 class="hero-title">
+      Herramientas para<br><span class="green">Control Electoral</span>
+    </h1>
+    <p class="hero-desc">
+      Plataforma de visualización y gestión de mapas macrodistritales
+      para el monitoreo y control del proceso electoral en el municipio de La Paz.
+    </p>
+    <a href="#contenido" class="hero-arrow">
+      <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="7 13 12 18 17 13"/>
+        <line x1="12" y1="6" x2="12" y2="18"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- ====== STATS BAR ====== -->
+  <div class="stats-bar">
+    <div class="stats-inner" id="statsInner"></div>
+  </div>
+
+  <!-- ====== MACRODISTRITOS ====== -->
+  <section class="section" id="contenido">
+    <div class="section-header">
+      <div class="icon-circle">
+        <svg viewBox="0 0 24 24">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+      </div>
+      <h2 class="section-title">Macrodistritos</h2>
+    </div>
+    <div class="macro-grid" id="macroGrid"></div>
+  </section>
+
+  <!-- ====== TABLA DE DATOS ====== -->
+  <div class="table-section">
+    <section class="section">
+      <div class="section-header">
+        <div class="icon-circle">
+          <svg viewBox="0 0 24 24">
+            <rect x="3" y="3" width="7" height="7"/>
+            <rect x="14" y="3" width="7" height="7"/>
+            <rect x="3" y="14" width="7" height="7"/>
+            <rect x="14" y="14" width="7" height="7"/>
+          </svg>
+        </div>
+        <h2 class="section-title">Distribución por Macrodistrito</h2>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="text-align:left">Macrodistrito</th>
+              <th>Recintos</th>
+              <th>Mesas</th>
+              <th style="text-align:left">Habilitados</th>
+              <th>%</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <!-- ====== CTA CHATBOT ====== -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <div class="cta-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+        </svg>
+      </div>
+      <h2 class="cta-title">
+        ¿Quieres acceder a un chatbot que te ayude en estas elecciones?
+      </h2>
+      <p class="cta-desc">
+        Solicita el acceso y obtén asistencia inteligente para consultar datos electorales,
+        ubicar recintos y resolver dudas en tiempo real.
+      </p>
+      <button class="cta-btn" onclick="solicitarAcceso()">
+        Solicitar acceso
+        <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    Municipio de La Paz — Procesos Electorales 2025–2026
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
