@@ -36,7 +36,7 @@ function renderStats() {
     { label: "Habilitados",     value: fmt(totales.habilitados) },
     { label: "Recintos",        value: totales.recintos },
     { label: "Mesas Electorales", value: fmt(totales.mesas) },
-    { label: "Macrodistritos",  value: 8 },
+    { label: "Macrodistritos",  value: 9 },
   ];
   el.innerHTML = items.map(i => `
     <div class="stat-item">
