@@ -120,7 +120,7 @@ body {
   justify-content: center;
   text-align: center;
   padding: 120px 32px 80px;
-  background-image: url('../Resources/voto.jpg');
+  background-image: url('./Resources/voto.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
