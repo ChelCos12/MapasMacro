@@ -129,7 +129,7 @@ window.addEventListener("scroll", () => {
 });
 
 function solicitarAcceso() {
-  window.open("https://notebooklm.google.com/notebook/07cf6d01-a17d-4a85-99e2-8c6e169a0d58", "_blank");
+  window.open("https://notebooklm.google.com/notebook/44ee78cb-ce31-4d4c-b7f2-7935156babe3", "_blank");
 }
 
 // ---- Init ----
