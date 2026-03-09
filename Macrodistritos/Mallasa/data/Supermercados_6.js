@@ -1,0 +1,1 @@
+var json_Supermercados_6 = {"type":"FeatureCollection","name":"Supermercados_6","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Nombre":"Mi Super","distrito":"Distrito 20"},"geometry":{"type":"Point","coordinates":[-68.096743296074692,-16.561423392026089]}}]}

@@ -1,0 +1,1 @@
+var json_InfraestructuraEducativaPrivada_9 = {"type":"FeatureCollection","name":"InfraestructuraEducativaPrivada_9","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"nombre":"Unidad Educativa Aranjuez"},"geometry":{"type":"Point","coordinates":[-68.092772025565992,-16.559609023942503]}}]}
