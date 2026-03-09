@@ -1,52 +1,16 @@
 const macrodistritos = [
   {
-    id: "sur",
-    nombre: "Sur",
-    descripcion: "Distrito 18, 19, 21",
-    ruta: "Macrodistritos/Sur/index.html"
-  },
-  {
-    id: "periferica",
-    nombre: "Periferica",
-    descripcion: "Distrito 11, 12, 13",
-    ruta: "Macrodistritos/Periferica/index.html"
-  },
-  {
-    id: "cotahuma",
-    nombre: "Cotahuma",
-    descripcion: "Distrito 3, 4, 5, 6",
-    ruta: "Macrodistritos/Cotahuma/index.html"
-  },
-  {
     id: "max-paredes",
     nombre: "Max Paredes",
-    descripcion: "Distritos 7, 8, 9, 10",
-    ruta: "Macrodistritos/MaxParedes/index.html"
+    descripcion: "Distritos 18, 19",
+    ruta: "MaxParedes/index.html"
   },
   {
-    id: "san-antonio",
-    nombre: "San Antonio",
-    descripcion: "Distritos 14, 15, 16, 17",
-    ruta: "Macrodistritos/San_Antonio/index.html"
-  },
-  {
-    id: "centro",
-    nombre: "Centro",
-    descripcion: "Distritos 1, 2",
-    ruta: "Macrodistritos/Centro/index.html"
-  },
-  {
-    id: "mallasa",
-    nombre: "Mallasa",
-    descripcion: "Distritos 20",
-    ruta: "Macrodistritos/Mallasa/index.html"
-  },
-  {
-    id: "rurales",
-    nombre: "Hampaturi y Zongo",
-    descripcion: "Distritos 22, 23",
-    ruta: "Macrodistritos/Hampaturi_Zongo/index.html"
-  },
+    id: "sur",
+    nombre: "Sur",
+    descripcion: "Distrito 21",
+    ruta: "Sur/index.html"
+  }
 ];
 
 const datosElectorales = [

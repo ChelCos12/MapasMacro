@@ -1,1 +1,0 @@
-var json_Supermercados_7 = {"type":"FeatureCollection","name":"Supermercados_7","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Nombre":"De la China","distrito":"Distrito 13"},"geometry":{"type":"Point","coordinates":[-68.120071367390651,-16.477790726560507]}}]}
