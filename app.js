@@ -2,14 +2,14 @@ const macrodistritos = [
   {
     id: "max-paredes",
     nombre: "Max Paredes",
-    descripcion: "Distritos 18, 19",
+    descripcion: "Distritos 7, 8, 9, 10",
     ruta: "MaxParedes/index.html"
   },
   {
     id: "sur",
-    nombre: "Sur",
-    descripcion: "Distrito 21",
-    ruta: "Sur/index.html"
+    nombre: "Proximamente los demas Macrodistritos",
+    descripcion: "...",
+    ruta: ""
   }
 ];
 
